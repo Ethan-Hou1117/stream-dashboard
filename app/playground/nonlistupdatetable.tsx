@@ -11,9 +11,9 @@ import {
   
   interface User {
     id: number;
-    name: string;
-    username: string;
-    email: string;
+    claim_number: string;
+    update_text: string;
+    status: string;
   }
   
   export default async function UsersTable({ users }: { users: User[] }) {
