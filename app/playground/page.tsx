@@ -23,7 +23,7 @@ export default async function PlaygroundPage({
   return (
     <main className="p-4 md:p-10 mx-auto max-w-7xl">
 
-<Grid className="gap-6" numColsLg={2}>
+<Grid className="gap-6 mt-8" numColsLg={2}>
    
   <Chart/>
   <Card>
@@ -32,8 +32,8 @@ export default async function PlaygroundPage({
   </Card>
   </Grid>
 
-  <Grid className=" gap-6" numColsLg={1}>
-  <Search />
+   <Search />
+  <Grid className="mt-8 gap-6" numColsLg={1}>
     <Table />
   </Grid>
 

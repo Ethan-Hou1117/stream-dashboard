@@ -1,8 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Modal } from 'react-bootstrap';
- 
+import { Modal } from 'react-bootstrap'; 
 
 const PopupImage = ({ src } : {src: any}) => {
   const [show, setShow] = useState(false);
