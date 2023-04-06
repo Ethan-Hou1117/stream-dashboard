@@ -70,7 +70,8 @@ const data = [
   },
 ];
 
-export default () => (
+export default function StreamTable() {
+  return (
   <Card>
     <Title style = {{color: '#7b6be9'}}>Claims</Title>
     <Table className="mt-5">
@@ -114,4 +115,4 @@ export default () => (
       </TableBody>
     </Table>
   </Card>
-);
+)};
