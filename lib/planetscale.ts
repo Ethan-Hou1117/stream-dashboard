@@ -9,8 +9,16 @@ interface User {
   email: string;
 }
 
+interface Update {
+    id: Generated<number>;
+    claim_number: string;
+    update_text: string;
+    status: string;
+}
+
 interface Database {
-  users: User;
+  users: User,
+  updates: Update;
   // https://github.com/nextauthjs/next-auth/issues/4922
 }
 

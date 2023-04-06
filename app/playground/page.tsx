@@ -27,6 +27,7 @@ export default async function PlaygroundPage({
    
   <Chart/>
   <Card>
+  {/* @ts-expect-error Server Component */}
   <UsersTable users={updates} />
   </Card>
   </Grid>
